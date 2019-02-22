@@ -1,5 +1,5 @@
 
-/ The following algorithm calculates two big integers without using BigInt class using the following approach
+/* The following algorithm calculates two big integers without using BigInt class using the following approach
 * 1- Basic digit by digit multiplication
 * 2- Carry propagation by @Youssef ElGhareeb https://www.youtube.com/watch?v=KNd6eqRpWqE
 */
