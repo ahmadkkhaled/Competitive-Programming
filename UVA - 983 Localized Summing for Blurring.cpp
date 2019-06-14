@@ -2,6 +2,7 @@
  * Solution wasn't submitted on UVA
  * The output values are identical to the uDebug test.
  * Author: Ahmad Khaled
+ *
  */
 
 #include <bits/stdc++.h>
