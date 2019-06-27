@@ -1,10 +1,3 @@
-/*
- * Solution wasn't submitted on UVA
- * The output values are identical to the uDebug test.
- * Author: Ahmad Khaled
- *
- */
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -36,10 +29,17 @@ long long solve(int i, int j){
 int main()
 {
     there_are_fates_worse_than_death();
-    while(!cin.eof()){
+    bool first = true;
+    while(true){
+        cin >> n >> m;
+        if(cin.fail())
+            break;
+        if(first)
+            first = false;
+        else
+            cout << endl;
         memset(picture, 0, sizeof(picture));
         memset(res, 0, sizeof(picture));
-        cin >> n >> m;
         for(int i=n-1; i>=0; --i){
             for (int j=0; j<n; ++j){
                 cin >> picture[i][j];
@@ -64,6 +64,6 @@ int main()
                 cout << res[i][j] << endl;
             }
         }
-        cout << sum << endl << endl;
+        cout << sum << endl;
     }
 }
