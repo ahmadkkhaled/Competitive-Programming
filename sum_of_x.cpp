@@ -1,4 +1,4 @@
-// given x , get a+b such that a+b=x using the binary for of X
+// given x , get a+b such that a+b=x using the binary representation of X
 #include <bits/stdc++.h>
 
 
