@@ -26,3 +26,9 @@ bool merge(int u , int v){
 }
 
 ///**************************************************************************************
+
+
+ long long choose(long long n, long long k){
+     if(!k) return 1;
+     return n*choose(n-1,k-1)/k;
+}
