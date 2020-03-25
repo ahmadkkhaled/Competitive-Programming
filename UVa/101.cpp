@@ -1,3 +1,4 @@
+// Solution didn't receive an Accepted verdict on UVa
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
