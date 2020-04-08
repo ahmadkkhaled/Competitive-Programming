@@ -70,7 +70,7 @@ int main(){
             for(pair<edge, int> e : adj[u]){
                 int v = e.first.to;
                 int nxtelev = e.second;
-                int adl = e.first.w + 60 * (elev != nxtelev);z
+                int adl = e.first.w + 60 * (elev != nxtelev);
                 if(dist[v][nxtelev] > sofar + adl){
                     e.first.w = dist[v][nxtelev] = sofar + adl;
                     q.push(e);
