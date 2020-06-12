@@ -10,3 +10,7 @@ int msb(long long x){
     return 63 -__builtin_clzll(x);
 }
 
+__builtin_popcountll() /// popcount for long long
+
+__builtin_popcount() /// popcount for int
+
