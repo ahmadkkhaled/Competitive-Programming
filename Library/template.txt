@@ -2,12 +2,15 @@
 using namespace std;
 
 typedef long long ll;
-#define all(v) v.begin(), v.end()
-#define sizeof(v) (int)v.size()
 #define nl '\n'
+#define all(v) v.begin(), v.end()
+#define rall(v) v.rbegin(), v.rend()
+#define sof(v) (int)v.size()
 
 int movei[] = {0, 0, 1, -1, 1, 1, -1, -1};
 int movej[] = {1, -1, 0, 0, 1, -1, 1, -1};
+
+const double PI = acos(-1.0);
 const int MXN = 1e5+7;
 
 int main(){
